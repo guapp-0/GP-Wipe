@@ -24,7 +24,6 @@ GP-Wipe is a lightweight and secure FiveM utility script for wiping player data 
 
 - Logs actions with timestamp and executor identity.
 - Easy configuration of allowed groups and webhook in `config.lua`.
-- Needs to confirm the action
 - Validates admin rights before executing.
 
 ---
