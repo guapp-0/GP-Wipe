@@ -5,10 +5,16 @@ author 'guapp0'
 description 'A simple script to manage player wipes'
 version '1.0.0'
 
-shared_script 'config.lua'
-server_script {
+
+server_scripts {
     '@oxmysql/lib/MySQL.lua',
-    'server.lua'
+    '@ox_lib/init.lua',
+    'server.lua',
+    'exports.lua'
 }
 
-dependency 'oxmysql'
+dependencies {
+    'oxmysql',
+    'ox_lib',
+    'es_extended'
+}
