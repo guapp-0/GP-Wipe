@@ -57,4 +57,4 @@ MIT License — Free to use, modify, and distribute.
 
 ## 🤝 Credits
 
-Created by `guapp0`
+Created by `zodiak-dev` (old guapp0)
